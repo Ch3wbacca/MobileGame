@@ -5,6 +5,8 @@ TagManager:
   serializedVersion: 2
   tags:
   - Despawn
+  - 'Checkpoint '
+  - Enemy
   layers:
   - Default
   - TransparentFX

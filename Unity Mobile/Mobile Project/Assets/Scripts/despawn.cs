@@ -8,6 +8,6 @@ public class DoorScript : MonoBehaviour
     public GameObject useless;
     void OnTriggerEnter2D(Collider2D collision)
     {
-        Destroy(gameObject.GetComponent "trash");
+        //Destroy(gameObject.GetComponent "trash");
     }
 }

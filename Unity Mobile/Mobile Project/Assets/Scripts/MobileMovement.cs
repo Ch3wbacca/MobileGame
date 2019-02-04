@@ -18,6 +18,7 @@ public class MobileMovement : MonoBehaviour
     {
         Move();
     }
+
     void Move()
     {
         Vector3 velocity = GetComponent<Rigidbody2D>().velocity;

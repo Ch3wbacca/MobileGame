@@ -8,6 +8,7 @@ TagManager:
   - 'Checkpoint '
   - Enemy
   - Flag
+  - Useless
   layers:
   - Default
   - TransparentFX

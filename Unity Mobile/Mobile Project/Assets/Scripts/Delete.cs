@@ -4,9 +4,15 @@ using UnityEngine;
 
 public class Delete : MonoBehaviour
 {
-    private void OnCollisionExit(Collision collision)
+    private void OnTriggerEnter2D(Collider2D collision)
     {
-        Destroy(gameObject.tag "useless");
+        if (gameObject.tag == "Player") 
+        {
+            Destroy(gameObject);
+        }
     }
 
+
+
 }
+

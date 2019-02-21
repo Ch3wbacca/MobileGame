@@ -184,17 +184,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3769353513359397663, guid: 6103c5685ff189f49aed006d68740912,
-        type: 3}
-      propertyPath: m_TagString
-      value: Flag
-      objectReference: {fileID: 0}
     - target: {fileID: 7760294222208048480, guid: 6103c5685ff189f49aed006d68740912,
         type: 3}
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300026, guid: 3ac9c406c0225f846ab6b240a8eb6795,
         type: 3}
+    - target: {fileID: 3769353513359397663, guid: 6103c5685ff189f49aed006d68740912,
+        type: 3}
+      propertyPath: m_TagString
+      value: Flag
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6103c5685ff189f49aed006d68740912, type: 3}
 --- !u!1 &66872706 stripped
@@ -241,7 +241,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3c2398a719556354faba357eaf407b48, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Flag: 0
+  Flag: {fileID: 0}
+  Flagcounter: 0
 --- !u!114 &66872711
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -419,7 +420,7 @@ GameObject:
   - component: {fileID: 559982754}
   - component: {fileID: 559982753}
   m_Layer: 0
-  m_Name: New Piskel (11)_7
+  m_Name: Player
   m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

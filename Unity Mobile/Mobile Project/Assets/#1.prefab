@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5936479630935273771}
   - component: {fileID: 5936479630935273770}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Other Art_0 (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -89,7 +89,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5936479631013183737}
   - component: {fileID: 5936479631013183736}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Other Art_0 (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -168,7 +168,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5936479631080383037}
   - component: {fileID: 5936479631080383036}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Other Art_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -380,7 +380,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5936479631288481801}
   - component: {fileID: 5936479631288481800}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Other Art_0 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -594,7 +594,7 @@ GameObject:
   - component: {fileID: 5936479631440353474}
   - component: {fileID: 5936479631440353475}
   - component: {fileID: 5936479631440353472}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Other Art_3 (1)
   m_TagString: Flag
   m_Icon: {fileID: 0}
@@ -1272,7 +1272,7 @@ GameObject:
   - component: {fileID: 5936479631849958560}
   - component: {fileID: 5936479631849958561}
   - component: {fileID: 5936479631849958574}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Destructor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1389,7 +1389,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5936479632079148930}
   - component: {fileID: 5936479632079148933}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: New Piskel (11)_9 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1468,7 +1468,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5936479632187779659}
   - component: {fileID: 5936479632187779658}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Other Art_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2214,7 +2214,7 @@ GameObject:
   - component: {fileID: 5936479632587452491}
   - component: {fileID: 5936479632587452488}
   - component: {fileID: 5936479632587452489}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Spawner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2335,7 +2335,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5936479632744872920}
   - component: {fileID: 5936479632744872923}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: New Piskel (11)_9
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2414,7 +2414,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5936479632846973802}
   - component: {fileID: 5936479632846973805}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Other Art_0 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2493,7 +2493,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5936479632884254441}
   - component: {fileID: 5936479632884254440}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Other Art_0 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}

@@ -17,7 +17,11 @@ public class MovingRight : MonoBehaviour
         Vector3 velocity = GetComponent<Rigidbody2D>().velocity;
         velocity.x = moveLeftSpeed * moveDir;
         GetComponent<Rigidbody2D>().velocity = velocity;
-       
+
+      
+        
+
+        
     }
     // Update is called once per frame
     void Update()

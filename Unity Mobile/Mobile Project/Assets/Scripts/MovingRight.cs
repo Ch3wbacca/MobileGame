@@ -35,28 +35,28 @@ public class MovingRight : MonoBehaviour
                 new Vector2(0, 100 * jumpSpeed));
         }
     }
-    void OnTriggerEnter2D(Collider2D collision)
+    void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.layer == 8)
         {
             grounded = true;
         }
     }
-    void OnTriggerExit2D(Collider2D collision)
+    void OnCollisionExit2D(Collision2D collision)
     {
         if (collision.gameObject.layer == 8)
         {
             grounded = false;
         }
     }
-    void OnTriggerStay2D(Collider2D collision)
+    void OnCollisionStay2D(Collision2D collision)
     {
         if (collision.gameObject.layer == 8)
         {
             grounded = true;
         }
     }
-      
+    
 }
     
        

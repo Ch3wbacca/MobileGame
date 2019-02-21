@@ -9,9 +9,9 @@ public class HP : MonoBehaviour
 
     
 
-    void OnTriggerEnter2D(Collider2D collision)
+    void OnTriggerEnter2D(Collider2D col)
     {
-        if (collision.gameObject.tag == "Player")
+        if (col.gameObject.name == "Player")
         {
             SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         }

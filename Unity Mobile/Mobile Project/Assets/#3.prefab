@@ -434,6 +434,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7354934656383733837}
   - component: {fileID: 7354934656383733839}
+  - component: {fileID: 9138094488155541640}
   - component: {fileID: 7354934656383733836}
   m_Layer: 0
   m_Name: New Piskel (11)_9 (8)
@@ -504,6 +505,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &9138094488155541640
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7354934656383733834}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b1277245f26f2204e998e9a1af1a622a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!60 &7354934656383733836
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -920,6 +933,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7354934656617721240}
   - component: {fileID: 7354934656617721243}
+  - component: {fileID: 7318767693760929642}
   m_Layer: 0
   m_Name: New Piskel (11)_9
   m_TagString: Untagged
@@ -989,6 +1003,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &7318767693760929642
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7354934656617721241}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b1277245f26f2204e998e9a1af1a622a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &7354934656785755941
 GameObject:
   m_ObjectHideFlags: 0
@@ -999,6 +1025,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7354934656785755940}
   - component: {fileID: 7354934656785755942}
+  - component: {fileID: 4637270466363468988}
   - component: {fileID: 7354934656785755943}
   m_Layer: 0
   m_Name: New Piskel (11)_9 (5)
@@ -1069,6 +1096,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &4637270466363468988
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7354934656785755941}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b1277245f26f2204e998e9a1af1a622a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!60 &7354934656785755943
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -1326,6 +1365,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7354934656862101628}
   - component: {fileID: 7354934656862101631}
+  - component: {fileID: 8665925905197064250}
   m_Layer: 0
   m_Name: New Piskel (11)_9 (1)
   m_TagString: Untagged
@@ -1395,6 +1435,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &8665925905197064250
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7354934656862101629}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b1277245f26f2204e998e9a1af1a622a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &7354934656972121147
 GameObject:
   m_ObjectHideFlags: 0
@@ -1405,6 +1457,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7354934656972121146}
   - component: {fileID: 7354934656972121149}
+  - component: {fileID: 9159439857928589420}
   m_Layer: 0
   m_Name: New Piskel (11)_9 (3)
   m_TagString: Untagged
@@ -1474,6 +1527,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &9159439857928589420
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7354934656972121147}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b1277245f26f2204e998e9a1af1a622a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &7354934657045321737
 GameObject:
   m_ObjectHideFlags: 0
@@ -1617,6 +1682,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7354934657095059774}
   - component: {fileID: 7354934657095059760}
+  - component: {fileID: 1722544285410639290}
   - component: {fileID: 7354934657095059761}
   m_Layer: 0
   m_Name: New Piskel (11)_9 (6)
@@ -1687,6 +1753,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1722544285410639290
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7354934657095059775}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b1277245f26f2204e998e9a1af1a622a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!60 &7354934657095059761
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -2053,6 +2131,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7354934657133946750}
   - component: {fileID: 7354934657133946736}
+  - component: {fileID: 2787001211041863280}
   - component: {fileID: 7354934657133946737}
   m_Layer: 0
   m_Name: New Piskel (11)_9 (7)
@@ -2123,6 +2202,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &2787001211041863280
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7354934657133946751}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b1277245f26f2204e998e9a1af1a622a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!60 &7354934657133946737
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -2185,7 +2276,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7354934657149522276}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.4625608, y: 3.1034489, z: 0}
+  m_LocalPosition: {x: 0.4625, y: 3.1034489, z: 0}
   m_LocalScale: {x: 0.042640444, y: 0.44141874, z: 1}
   m_Children: []
   m_Father: {fileID: 7354934656502789307}
@@ -2774,6 +2865,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7354934657583644305}
   - component: {fileID: 7354934657583644304}
+  - component: {fileID: 3692077660476206800}
   m_Layer: 0
   m_Name: New Piskel (11)_9 (2)
   m_TagString: Untagged
@@ -2843,6 +2935,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &3692077660476206800
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7354934657583644318}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b1277245f26f2204e998e9a1af1a622a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &7354934657669168471
 GameObject:
   m_ObjectHideFlags: 0
@@ -3065,6 +3169,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7354934657935085665}
   - component: {fileID: 7354934657935085667}
+  - component: {fileID: 8476659776727541037}
   - component: {fileID: 7354934657935085664}
   m_Layer: 0
   m_Name: New Piskel (11)_9 (4)
@@ -3135,6 +3240,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &8476659776727541037
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7354934657935085678}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b1277245f26f2204e998e9a1af1a622a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!60 &7354934657935085664
 PolygonCollider2D:
   m_ObjectHideFlags: 0

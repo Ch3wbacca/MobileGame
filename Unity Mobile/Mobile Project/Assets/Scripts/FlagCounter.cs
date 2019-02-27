@@ -15,7 +15,7 @@ public class FlagCounter : MonoBehaviour
         {
             Flagcounter += 1;
             Flag.GetComponent<Text>().text =
-                "Flag: " + Flagcounter;
+                "Flag " + Flagcounter;
             Destroy(collision.gameObject);
         }
 

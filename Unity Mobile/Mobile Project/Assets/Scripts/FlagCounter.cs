@@ -6,7 +6,10 @@ public class FlagCounter : MonoBehaviour
 {
     public Text Flag;
     public int Flagcounter = 0;
-    void OnCollisionEnter2D(Collision2D collision)
+    private void OnTriggerEnter2D(Collider2D collision)
+    
+        
+    
     {
         if (collision.gameObject.tag == "Flag")
         {

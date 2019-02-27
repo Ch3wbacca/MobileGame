@@ -10,7 +10,7 @@ public class MovingRight : MonoBehaviour
     public float moveLeftSpeed = 20.0f;
     void Start()
     {
-         Move();
+        Move();
     }
     void Move()
     {
@@ -18,50 +18,10 @@ public class MovingRight : MonoBehaviour
         velocity.x = moveLeftSpeed * moveDir;
         GetComponent<Rigidbody2D>().velocity = velocity;
 
-      
-        
-
-        
     }
     // Update is called once per frame
     void Update()
     {
         Move();
     }
-    
-    
-    
-    public void Jump()
-    {
-        if (grounded)
-        {
-            GetComponent<Rigidbody2D>().AddForce(
-                new Vector2(0, 100 * jumpSpeed));
-        }
-    }
-    void OnCollisionEnter2D(Collision2D collision)
-    {
-        if (collision.gameObject.layer == 8)
-        {
-            grounded = true;
-        }
-    }
-    void OnCollisionExit2D(Collision2D collision)
-    {
-        if (collision.gameObject.layer == 8)
-        {
-            grounded = false;
-        }
-    }
-    void OnCollisionStay2D(Collision2D collision)
-    {
-        if (collision.gameObject.layer == 8)
-        {
-            grounded = true;
-        }
-    }
-    
 }
-    
-       
-

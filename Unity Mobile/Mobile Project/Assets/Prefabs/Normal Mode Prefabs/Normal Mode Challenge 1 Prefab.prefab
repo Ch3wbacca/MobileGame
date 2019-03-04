@@ -2568,10 +2568,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Spawner: {fileID: 8189471593560269167}
-  prefab1: {fileID: 4330502898126154378, guid: c57191f14d527b9429ea81f62efdddef, type: 3}
-  prefab2: {fileID: 41418501424350203}
-  prefab3: {fileID: 8346000966782787579, guid: 9eedfa2e0f70019429a92ea4595da02c, type: 3}
-  prefab4: {fileID: 2382605379402460070, guid: d48233ffa8db41b49a179b8f89426ae1, type: 3}
+  prefab1: {fileID: 41418501424350203}
+  prefab2: {fileID: 8346000966782787579, guid: 9eedfa2e0f70019429a92ea4595da02c, type: 3}
+  prefab3: {fileID: 2382605379402460070, guid: d48233ffa8db41b49a179b8f89426ae1, type: 3}
+  prefab4: {fileID: 4330502898126154378, guid: c57191f14d527b9429ea81f62efdddef, type: 3}
 --- !u!1 &8189471593560269167
 GameObject:
   m_ObjectHideFlags: 0

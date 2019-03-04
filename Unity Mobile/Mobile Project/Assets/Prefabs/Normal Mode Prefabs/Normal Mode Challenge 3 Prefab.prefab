@@ -3413,6 +3413,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2382605379402460067}
     m_Modifications:
+    - target: {fileID: 5205954987738901557, guid: 0f9bcb550e10cd449a9e8c6c1d05d6c9,
+        type: 3}
+      propertyPath: m_Name
+      value: Despawner
+      objectReference: {fileID: 0}
     - target: {fileID: 4038059372252832705, guid: 0f9bcb550e10cd449a9e8c6c1d05d6c9,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3467,11 +3472,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5205954987738901557, guid: 0f9bcb550e10cd449a9e8c6c1d05d6c9,
-        type: 3}
-      propertyPath: m_Name
-      value: Despawner
       objectReference: {fileID: 0}
     - target: {fileID: 690837856333885882, guid: 0f9bcb550e10cd449a9e8c6c1d05d6c9,
         type: 3}

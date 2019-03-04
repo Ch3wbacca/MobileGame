@@ -191,6 +191,43 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 11e096a4c2b110349959c74308331b7d, type: 3}
+--- !u!1 &642471210 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6532563189587421916, guid: 44412d324dd8dea40a7ff2ff446fdca7,
+    type: 3}
+  m_PrefabInstance: {fileID: 6532563189017431153}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &642471215
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 642471210}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1862395651, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 2
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 2128726701}
+          m_MethodName: Jump
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+      m_TypeName: UnityEngine.EventSystems.EventTrigger+TriggerEvent, UnityEngine.UI,
+        Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  delegates: []
 --- !u!1 &725359866
 GameObject:
   m_ObjectHideFlags: 0
@@ -790,7 +827,18 @@ PrefabInstance:
       propertyPath: field of view
       value: 152
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 2791258498971313609, guid: 13d091e8d19486940b86f90859f8be75,
+        type: 3}
+      propertyPath: JumpPower
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 2791258498971313609, guid: 13d091e8d19486940b86f90859f8be75,
+        type: 3}
+      propertyPath: moveLeftSpeed
+      value: 0.25
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 5769966069633960227, guid: 13d091e8d19486940b86f90859f8be75, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 13d091e8d19486940b86f90859f8be75, type: 3}
 --- !u!1 &1970179370
 GameObject:
@@ -921,6 +969,55 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1970179370}
   m_CullTransparentMesh: 0
+--- !u!1 &2064906114 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6532563189189189825, guid: 44412d324dd8dea40a7ff2ff446fdca7,
+    type: 3}
+  m_PrefabInstance: {fileID: 6532563189017431153}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2064906116
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2064906114}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1862395651, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 2
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 2128726701}
+          m_MethodName: Jump
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+      m_TypeName: UnityEngine.EventSystems.EventTrigger+TriggerEvent, UnityEngine.UI,
+        Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  delegates: []
+--- !u!114 &2128726701 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2791258498971313609, guid: 13d091e8d19486940b86f90859f8be75,
+    type: 3}
+  m_PrefabInstance: {fileID: 1934051186}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1859b24c9f986454882ae173a845fad9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &117431181872232568
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1265,7 +1362,8 @@ PrefabInstance:
       propertyPath: m_Text
       value: 'Flags be like '
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 6532563189189189827, guid: 44412d324dd8dea40a7ff2ff446fdca7, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 44412d324dd8dea40a7ff2ff446fdca7, type: 3}
 --- !u!114 &6532563189017431154 stripped
 MonoBehaviour:

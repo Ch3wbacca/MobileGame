@@ -120,10 +120,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Spawner: {fileID: 5907477663976943048}
-  prefab1: {fileID: 4330502898126154378}
-  prefab2: {fileID: 41418501424350203, guid: d28b640140170b54a820bee83710c98f, type: 3}
-  prefab3: {fileID: 8346000966782787579, guid: 9eedfa2e0f70019429a92ea4595da02c, type: 3}
-  prefab4: {fileID: 2382605379402460070, guid: d48233ffa8db41b49a179b8f89426ae1, type: 3}
+  prefab1: {fileID: 41418501424350203, guid: d28b640140170b54a820bee83710c98f, type: 3}
+  prefab2: {fileID: 8346000966782787579, guid: 9eedfa2e0f70019429a92ea4595da02c, type: 3}
+  prefab3: {fileID: 2382605379402460070, guid: d48233ffa8db41b49a179b8f89426ae1, type: 3}
+  prefab4: {fileID: 4330502898126154378}
 --- !u!1 &4330502897892177538
 GameObject:
   m_ObjectHideFlags: 0

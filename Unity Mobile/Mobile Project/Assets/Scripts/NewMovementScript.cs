@@ -12,15 +12,18 @@ public class NewMovementScript : MonoBehaviour
     {
         myRidgibody = transform.GetComponent<Rigidbody2D>();
     }
-
-
     
     void FixedUpdate()
     {
         if (Input.GetKeyDown(KeyCode.Space) && isGrounded)
         {
-            myRidgibody.AddForce(Vector3.up * (JumpPower * myRidgibody.mass * myRidgibody.gravityScale * 20.0f));
+            Jump();
         }
+    }
+
+    public void Jump()
+    { 
+           myRidgibody.AddForce(Vector3.up * (JumpPower * myRidgibody.mass * myRidgibody.gravityScale * 20.0f));
     }
 
     void OnCollisionEnter2D(Collision2D collision)
@@ -30,6 +33,7 @@ public class NewMovementScript : MonoBehaviour
             isGrounded = true;
         }
     }
+
     void OnCollisionExit2D(Collision2D collision)
     {
         if (collision.gameObject.layer == 8)
@@ -37,6 +41,7 @@ public class NewMovementScript : MonoBehaviour
             isGrounded = false;
         }
     }
+
     void OnCollisionStay2D(Collision2D collision)
     {
         if (collision.gameObject.layer == 8)

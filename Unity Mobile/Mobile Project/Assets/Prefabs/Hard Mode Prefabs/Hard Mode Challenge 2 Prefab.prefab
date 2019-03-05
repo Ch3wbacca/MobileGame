@@ -3987,7 +3987,7 @@ MonoBehaviour:
   prefab1: {fileID: 1153228374047423025, guid: 5232d8cc638072442be2b5383e9d920f, type: 3}
   prefab2: {fileID: 1747551255890077798}
   prefab3: {fileID: 5113812057405350401, guid: aefdb421ca0aaa446a773db234a14bec, type: 3}
-  prefab4: {fileID: 0}
+  prefab4: {fileID: 5596892927455221337, guid: d6302106d5432c14a8d9eacb3cde8dd3, type: 3}
 --- !u!1 &4742207568674485209
 GameObject:
   m_ObjectHideFlags: 0
@@ -4436,11 +4436,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1747551255890077795}
     m_Modifications:
-    - target: {fileID: 5205954987738901557, guid: 0f9bcb550e10cd449a9e8c6c1d05d6c9,
-        type: 3}
-      propertyPath: m_Name
-      value: Despawner
-      objectReference: {fileID: 0}
     - target: {fileID: 4038059372252832705, guid: 0f9bcb550e10cd449a9e8c6c1d05d6c9,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -4495,6 +4490,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5205954987738901557, guid: 0f9bcb550e10cd449a9e8c6c1d05d6c9,
+        type: 3}
+      propertyPath: m_Name
+      value: Despawner
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0f9bcb550e10cd449a9e8c6c1d05d6c9, type: 3}

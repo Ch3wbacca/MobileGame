@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 2481637147715876706}
   - component: {fileID: 8128543291499137019}
   - component: {fileID: 4457577910137271482}
-  - component: {fileID: 6913985253877588825}
+  - component: {fileID: 8490079688007285351}
   m_Layer: 8
   m_Name: Spawner Trigger
   m_TagString: Untagged
@@ -107,7 +107,7 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 2, y: 10}
   m_EdgeRadius: 0
---- !u!114 &6913985253877588825
+--- !u!114 &8490079688007285351
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -116,14 +116,18 @@ MonoBehaviour:
   m_GameObject: {fileID: 3897206340834544607}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cbd6fbf6c8079124c9f3eba415f36ff0, type: 3}
+  m_Script: {fileID: 11500000, guid: 1c3f3d50dbd58cb43bf9c3a5218a0b42, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   Spawner: {fileID: 6941064853206253666}
   prefab1: {fileID: 1153228374047423025, guid: 5232d8cc638072442be2b5383e9d920f, type: 3}
-  prefab2: {fileID: 5113812057405350401, guid: aefdb421ca0aaa446a773db234a14bec, type: 3}
+  prefab2: {fileID: 1747551255890077798, guid: b790aab14c7c954479f71dd49ea15eed, type: 3}
   prefab3: {fileID: 5596892927455221337}
-  prefab4: {fileID: 1747551255890077798, guid: b790aab14c7c954479f71dd49ea15eed, type: 3}
+  prefab4: {fileID: 5113812057405350401, guid: aefdb421ca0aaa446a773db234a14bec, type: 3}
+  prefab5: {fileID: 1146149850862254734, guid: 6ceb41c533f8a8c458fcb99ea7cd5de6, type: 3}
+  prefab6: {fileID: 8008845979714270083, guid: cf82d09c7fc380140892c637f2d84730, type: 3}
+  prefab7: {fileID: 0}
+  prefab8: {fileID: 0}
 --- !u!1 &3992957895211256952
 GameObject:
   m_ObjectHideFlags: 0
@@ -2784,6 +2788,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5596892927455221338}
     m_Modifications:
+    - target: {fileID: 5205954987738901557, guid: 0f9bcb550e10cd449a9e8c6c1d05d6c9,
+        type: 3}
+      propertyPath: m_Name
+      value: Despawner
+      objectReference: {fileID: 0}
     - target: {fileID: 4038059372252832705, guid: 0f9bcb550e10cd449a9e8c6c1d05d6c9,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2838,11 +2847,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5205954987738901557, guid: 0f9bcb550e10cd449a9e8c6c1d05d6c9,
-        type: 3}
-      propertyPath: m_Name
-      value: Despawner
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0f9bcb550e10cd449a9e8c6c1d05d6c9, type: 3}

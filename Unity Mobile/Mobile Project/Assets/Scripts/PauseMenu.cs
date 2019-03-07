@@ -44,6 +44,16 @@ public class PauseMenu : MonoBehaviour
         Application.Quit();
         Debug.Log("Application.Quit");
     }
+    public void Something()
+    {
+        if (Time.timeScale == 1)
+        {
+            GetComponent<Canvas>().enabled = true;
+            Time.timeScale = 0;
+        }
 
+        
+
+    }
 
 }
